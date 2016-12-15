@@ -18,5 +18,10 @@ namespace WhiteFleet
 
 			return true;
 	    }
-    }
+
+		public override string Version
+		{
+			get { return "<BUILD_VERSION>"; }
+		}
+	}
 }
